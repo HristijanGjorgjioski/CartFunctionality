@@ -2,15 +2,21 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
     appBar: {
-        backgroundColor: '#FBDE44FF',
+        backgroundColor: '#f23a3a',
         width: '100%',
     },
     text: {
         color: 'black',
-        textDecoration: 'none'
+        textDecoration: 'none',
+        alignItems: 'center'
     },
     link: {
-        color: 'black',
+        color: 'white',
+        fontFamily: 'bold',
+        fontSize: '24px',
         textDecoration: 'none'
+    },
+    cartIcon: {
+        justify: 'flexEnd',
     }
 }))
