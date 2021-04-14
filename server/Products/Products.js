@@ -39,21 +39,21 @@ const Products = [{
                     {
                         "_id": 4,
                         "name": "Fried Chicken Burger",
-                        "image": "image-url",
+                        "image": "https://media1.s-nbcnews.com/i/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p_d9270c5c545b30ea094084c7f2342eb4.jpg",
                         "price": "450",
                         "description": "Old School Chicken Burger"
                     },
                     {
                         "_id": 5,
                         "name": "Paneer Tikka Burger",
-                        "image": "image-url",
+                        "image": "https://happilyunprocessed.com/wp-content/uploads/2018/03/Juicest-Burger-Everfeature.jpg.jpg",
                         "price": "450",
                         "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
                     },
                     {
                         "_id": 6,
                         "name": "Chicken Classic Cheese Burger",
-                        "image": "image-url",
+                        "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/14119/production/_110410228_8e765dfd-5b2a-4052-b74d-68269ae4406a.png",
                         "price": "550",
                         "description": "Aged cheddar, sweet pickle, tomato, red onion"
                     },

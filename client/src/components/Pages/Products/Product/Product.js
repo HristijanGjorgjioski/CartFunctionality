@@ -19,7 +19,7 @@ const CustomCard = ({ image, price, name, description, _id, quantity }) => {
                     <Button variant="contained" className={classes.button} onClick={() => addToCart(product)}>Order Now</Button>
                 </CardContent>
             </div>
-            <CardMedia className={classes.image} component="img" image={product.image} alt="pizza" />
+            <CardMedia className={classes.image} component="img" image={product.image} alt="food" />
         </Card>
     );
 };
