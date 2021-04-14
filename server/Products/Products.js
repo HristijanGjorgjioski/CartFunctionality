@@ -1,8 +1,8 @@
-const Products = {
+const Products = [{
     "results": [
         {
             "name": "Pizza",
-            "image": "https://res.cloudinary.com/.../pizza_mukcg7.png",
+            "image": "https://freepikpsd.com/wp-content/uploads/2019/10/32135-pizza-clipart.jpg",
             "subItemsData": {
                 "name": "Tasty Pizzas",
                 "subItems": [
@@ -29,7 +29,7 @@ const Products = {
         },
         {
             "name": "Burger",
-            "image": "image-url",
+            "image": "https://thumbs.dreamstime.com/b/burger-colorful-vector-cartoon-fast-food-burger-vector-clipart-icon-burger-colorful-vector-cartoon-fast-food-burger-vector-clipart-123335524.jpg",
             "subItemsData": {
                 "name": "Crispy Burgers",
                 "subItems": [
@@ -55,6 +55,6 @@ const Products = {
             }
         }
     ]
-};
+}];
 
 export default Products;
