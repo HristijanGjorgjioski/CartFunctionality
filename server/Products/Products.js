@@ -7,18 +7,21 @@ const Products = [{
                 "name": "Tasty Pizzas",
                 "subItems": [
                     {
+                        "_id": 1,
                         "name": "Tomato Basil Italian Pizza",
                         "image": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000450/img/basic/a0000450_main.jpg?20170429125322&q=80&rw=750&rh=536",
                         "price": "450",
                         "description": "Dressed with oil, the origanum and garlic cloves",
                     },
                     {
+                        "_id": 3,
                         "name": "Bombay Pizza",
                         "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/pizza-recipe.jpg",
                         "price": "550",
                         "description": "Spicy tomato sauce with Italian herbs, mushrooms, onion, cottage cheese, coriander and mozzarella",
                     },
                     {
+                        "_id": 2,
                         "name": "Sicilia Pizza",
                         "image": "https://recipes.timesofindia.com/photo/53110049.cms",
                         "price": "450",
@@ -34,18 +37,21 @@ const Products = [{
                 "name": "Crispy Burgers",
                 "subItems": [
                     {
+                        "_id": 4,
                         "name": "Fried Chicken Burger",
                         "image": "image-url",
                         "price": "450",
                         "description": "Old School Chicken Burger"
                     },
                     {
+                        "_id": 5,
                         "name": "Paneer Tikka Burger",
                         "image": "image-url",
                         "price": "450",
                         "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
                     },
                     {
+                        "_id": 6,
                         "name": "Chicken Classic Cheese Burger",
                         "image": "image-url",
                         "price": "550",
