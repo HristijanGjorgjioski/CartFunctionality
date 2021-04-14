@@ -18,7 +18,7 @@ const Home = () => {
             <Grid container className={classes.mainGrid}>
                 {products.Products ? products.Products[0].results.map((product) => {
                     return (
-                        <Grid className={classes.itemGrid} key={product.name} item xs={6} sm={3} lg={3}>
+                        <Grid className={classes.itemGrid} key={product.name} item xs={5} sm={3} lg={3}>
                             <Link to={product.name} style={{ textDecoration: 'none' }}>
                                 <Card>
                                     <CardActionArea>

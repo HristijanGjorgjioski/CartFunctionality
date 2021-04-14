@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { Container, Typography } from '@material-ui/core';
+import { Button, Container, Typography } from '@material-ui/core';
+import { useHistory } from 'react-router-dom';
 
 import useStyles from './styles';
 import Items from './Items/Items';
@@ -7,7 +8,14 @@ import { MainContext } from '../../../context/context';
 
 const Cart = () => {
     const classes = useStyles();
-    const { totalPrice, cart } = useContext(MainContext);
+    const { totalPrice, cart, setCart } = useContext(MainContext);
+    const history = useHistory();
+
+    const placeOrder = (e) => {
+        e.preventDefault();
+        setCart([]);
+        history.push('/');
+    }
 
     return (
         <Container className={classes.container}>
@@ -16,7 +24,10 @@ const Cart = () => {
             : <>
                     <Typography variant="h3">Cart</Typography>
                     <Items />
-                    <Typography className={classes.total}>Total: {totalPrice}</Typography>
+                    <div className={classes.totalOrder}>
+                        <Typography className={classes.total}>Total: {totalPrice}</Typography>
+                        <Button variant="contained" className={classes.button} onClick={placeOrder}>Place Order</Button>
+                    </div>
                 </>
             }
         </Container>

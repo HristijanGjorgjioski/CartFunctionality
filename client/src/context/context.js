@@ -12,7 +12,6 @@ export const Provider = ({ children }) => {
 
     const addToCart = (item) => {
         const index = cart.findIndex(p => p._id === item._id);
-        console.log(cart);
 
         if(index === -1) {
             cart.push({ ...item, quantity: 1 });

@@ -1,17 +1,16 @@
 import React, { useContext } from 'react';
-import { Card, CardContent, Typography, CardActions, Button, CardMedia } from '@material-ui/core';
-import { RemoveShoppingCart, AddShoppingCart } from '@material-ui/icons';
+import { Card, CardContent, Typography, Button, CardMedia } from '@material-ui/core';
 
 import { MainContext } from '../../../../context/context';
 import useStyles from './styles';
 
 const Items = () => {
-    const { cart, addToCart, deleteFromCart } = useContext(MainContext);
+    const { cart, deleteFromCart } = useContext(MainContext);
     const classes = useStyles();
 
     const cartItems = cart.map((product) => {
         return (
-            <Card className={classes.container}>
+            <Card key={product._id} className={classes.container}>
                 <div className={classes.details}>
                     <CardContent className={classes.content}>
                         <Typography component="h5" variant="h5">{product.name}</Typography>

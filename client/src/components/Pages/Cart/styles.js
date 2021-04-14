@@ -14,5 +14,16 @@ export default makeStyles((theme) => ({
     total: {
         marginTop: '1%',
         marginBottom: '4%'
+    },
+    button: {
+        backgroundColor: '#f23a3a',
+        color: 'white'
+    },
+    totalOrder: {
+        marginTop: '15px',
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "space-between",
     }
 }));
