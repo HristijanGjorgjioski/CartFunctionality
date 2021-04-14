@@ -36,11 +36,6 @@ export const Provider = ({ children }) => {
         return cart;
     };
 
-    // const submitOrder = async (order) => {
-    //     await api.submitOrder(order);
-    // };
-
-
     const getProducts = async () => {
         const { data } = await api.getProducts();
         setProducts(data);
