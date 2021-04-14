@@ -8,19 +8,19 @@ const Products = [{
                 "subItems": [
                     {
                         "name": "Tomato Basil Italian Pizza",
-                        "image": "https://res.cloudinary.com/...pizza-1_trloij.jpg",
+                        "image": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000450/img/basic/a0000450_main.jpg?20170429125322&q=80&rw=750&rh=536",
                         "price": "450",
                         "description": "Dressed with oil, the origanum and garlic cloves",
                     },
                     {
                         "name": "Bombay Pizza",
-                        "image": "image-url",
+                        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/pizza-recipe.jpg",
                         "price": "550",
                         "description": "Spicy tomato sauce with Italian herbs, mushrooms, onion, cottage cheese, coriander and mozzarella",
                     },
                     {
                         "name": "Sicilia Pizza",
-                        "image": "image-url",
+                        "image": "https://recipes.timesofindia.com/photo/53110049.cms",
                         "price": "450",
                         "description": "A thick base pizza with fresh tomato sauce, mushrooms, garlic, pickled onions",
                     },
