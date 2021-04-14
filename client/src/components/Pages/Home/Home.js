@@ -1,10 +1,16 @@
 import React from 'react'
+import { Container } from '@material-ui/core';
+import Products from './Products/Products';
+
+import useStyles from './styles';
 
 const Home = () => {
+    const classes = useStyles();
+
     return (
-        <div>
-            Home
-        </div>
+        <Container className={classes.container}>
+            <Products />
+        </Container>
     )
 }
 

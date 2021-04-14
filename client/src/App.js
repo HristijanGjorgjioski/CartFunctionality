@@ -1,9 +1,9 @@
 import React from 'react'
 import { Box } from '@material-ui/core';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Home } from '@material-ui/icons';
 import Navbar from './components/Navbar/Navbar';
 import { Provider } from './context/context';
+import Home from './components/Pages/Home/Home';
 
 const App = () => {
   return (
