@@ -3,11 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
     container: {
         marginTop: '6%',
-        marginBottom: '7%',
+        marginBottom: '0%',
         display: "flex",
-        flexDirection: "column",
+        flexDirection: "row",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "space-between",
         [theme.breakpoints.down('xs')]: {
             marginTop: '15%'
         }
@@ -19,4 +19,12 @@ export default makeStyles((theme) => ({
             marginBottom: '4%'
         }
     },
+    image: {
+        width: '30%',
+        height: '200px'
+    },
+    button: {
+        backgroundColor: '#f23a3a',
+        color: 'white'
+    }
 }));

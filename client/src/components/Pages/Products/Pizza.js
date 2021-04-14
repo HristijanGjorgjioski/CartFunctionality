@@ -15,10 +15,10 @@ const Pizza = () => {
 
     return (
         <Container className={classes.container}>
-                <Grid container justify="center" alignItems="stretch" spacing={2}>
+                <Grid container justify="center" alignItems="stretch">
                 {products.Products ? products.Products[0].results[0].subItemsData.subItems.map((product) => {
                     return (
-                        <Grid className={classes.itemGrid} key={product.name} item xs={9} sm={9} lg={9}>
+                        <Grid className={classes.itemGrid} key={product.name} item xs={12} sm={9} lg={9}>
                             <Product description={product.description} image={product.image} name={product.name} price={product.price} />
                         </Grid>
                     )

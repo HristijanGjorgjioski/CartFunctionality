@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
     container: {
         marginTop: '6%',
-        marginBottom: '7%',
+        marginBottom: '0%',
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -19,4 +19,7 @@ export default makeStyles((theme) => ({
             marginBottom: '4%'
         }
     },
+    itemGrid: {
+        marginTop: '0px'
+    }
 }));
